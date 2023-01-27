@@ -7,6 +7,7 @@ const modalInner = document.getElementById("modal-inner")
 
 button.addEventListener("click", function(){
    modal.style.display = 'inline'
+   body.style.position = 'fixed'
 })
 button1.addEventListener("click", function(){
     modal.style.display = 'inline'
